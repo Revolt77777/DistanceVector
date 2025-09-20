@@ -24,7 +24,7 @@ def add_entry(switch, logstring):
     global current_logs
 
     current_logs[switch] = logstring
-    print((switch + ":" + logstring))
+    #print((switch + ":" + logstring))
 
 
 def finish_round():
